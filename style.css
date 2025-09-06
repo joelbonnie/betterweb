@@ -44,8 +44,8 @@ header {
 }
 
 #links img {
-  width: 1.5rem;              
-  height: 1.5rem;
+  width: 1.2vw;              
+  height: 1.2vw;
 }
 
   
@@ -65,14 +65,15 @@ main {
   text-align: center;
   align-items: center;
   padding: 1rem;
-  margin-left: 30rem;
-  margin-right: 30rem;
+  max-width: 45vw;
+  margin: 0 auto;
 
 }
 
 #winter_image {
-  width: 20rem;
-  height: 20rem;
+  width: 100%;
+  max-width: 18vw;
+  height: auto;
   margin-bottom: 1.5rem;
   
 }
@@ -104,5 +105,9 @@ section {
 @media (max-width: 768px) {
   main {
     flex-direction: column;
+  }
+
+  section {
+    font-size: 12px;
   }
 }
