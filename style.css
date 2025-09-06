@@ -105,6 +105,17 @@ section {
 @media (max-width: 768px) {
   main {
     flex-direction: column;
+    max-width: 70vw;
+  }
+
+  #site-title {
+    font-size: 5vh
+  }
+
+
+  #links img {
+    width: 3vw;
+    height: 3vw;
   }
 
   section {
