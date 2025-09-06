@@ -109,8 +109,8 @@ section {
   }
 
   #site-title {
-    font-size: 7vh;
-    font-family: Georgia;
+    font-size: 6vh;
+    font-family: Merriweather, Georgia;
   }
 
   #winter_image {
@@ -119,8 +119,8 @@ section {
 
 
   #links img {
-    width: 3vw;
-    height: 3vw;
+    width: 10vw;
+    height: 10vw;
   }
 
   section {
