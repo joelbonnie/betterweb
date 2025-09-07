@@ -117,10 +117,13 @@ section {
     max-width: 75vw;
   }
 
+  #links {
+    gap: 3vw; 
+  }
 
   #links img {
-    width: 6vw;
-    height: 6vw;
+    width: 4vw;
+    height: 4vw;
   }
 
   section {
