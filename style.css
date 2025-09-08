@@ -50,6 +50,11 @@ header {
 
   
 footer {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 8vw;
   color: black;
   padding: 1rem;
   text-align: center;
@@ -127,6 +132,11 @@ section {
 
 /* Mobile */
 @media (max-width: 768px) {
+
+  header {
+    margin-top: 3vh;
+  }
+
   main {
     max-width: 90vw;
   }
@@ -137,7 +147,7 @@ section {
   }
 
   #winter_image {
-    max-width: 75vw;
+    max-width: 70vw;
   }
 
   #links {
