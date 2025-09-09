@@ -113,6 +113,17 @@ section {
   padding: 0.5rem;
 }
 
+#page_content {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#home {
+  margin-top: 10vh;
+}
+
 /* Tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
   header {
