@@ -120,9 +120,25 @@ section {
   gap: 1rem;
 }
 
+.project_section h3 {
+  font-size: 2vh;
+  margin: 0.5rem;
+}
+
+.project_section ul {
+  padding-left: 1.5rem; 
+  max-width: 35vw;
+}
+
+.project_section p {
+  padding-left: 0.5rem; 
+  max-width: 35vw;
+}
+
 #home {
   margin-top: 10vh;
 }
+
 
 /* Tablet */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -147,6 +163,22 @@ section {
     height: 2vw;
   }
 
+  #page_content {
+    gap: 1.5rem;
+  }
+
+  .project_section h3 {
+    font-size: 1.8vh;
+  }
+
+  .project_section ul {
+    max-width: 55vw;  
+  }
+
+  .project_section p {
+    padding-left: 0.5rem; 
+    max-width: 55vw;
+  }
 
 }
 
@@ -180,5 +212,18 @@ section {
 
   section {
     font-size: 12px;
+  }
+
+  #page_content {
+    gap: 0.5rem;
+  }
+
+  .project_section ul {
+    max-width: 90vw;
+  }
+
+  .project_section p {
+    padding-left: 0.5rem; 
+    max-width: 90vw;
   }
 }
