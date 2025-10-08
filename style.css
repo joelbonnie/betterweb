@@ -29,10 +29,17 @@ header {
   gap: 0.5rem;
 }
 
-#site-title {
+.site-title {
   font-size: 7vh;
   padding: 0;
   line-height: 1;
+}
+
+.subpage-title {
+  font-size: 7vh;
+  padding: 0;
+  line-height: 1;
+  padding-bottom: 0.8rem;
 }
 
 #links {
@@ -127,7 +134,9 @@ section {
 
 .project_section ul {
   padding-left: 1.5rem; 
+  padding-right: 1.5rem; 
   max-width: 35vw;
+  text-align: left;
 }
 
 .project_section p {
