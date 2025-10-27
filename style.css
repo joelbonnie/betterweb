@@ -39,7 +39,7 @@ header {
   font-size: 7vh;
   padding: 0;
   line-height: 1;
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
 }
 
 #links {
@@ -124,7 +124,7 @@ section {
   align-items: left;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.7rem;
 }
 
 .project_section h3 {
@@ -145,7 +145,8 @@ section {
 }
 
 #home {
-  margin-top: 10vh;
+  margin-top: 4.5vh;
+  margin-bottom: 0vh;
 }
 
 
@@ -160,7 +161,7 @@ section {
   }
 
   #winter_image {
-    max-width: 30vw;
+    max-width: 25vw;
   }
 
   #links {
